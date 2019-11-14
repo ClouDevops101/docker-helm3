@@ -5,7 +5,7 @@ RUN apk add --update --no-cache ca-certificates git
 
 ENV VERSION=v3.0.0
 ENV FILENAME=helm-${VERSION}-linux-amd64.tar.gz
-ENV SHA256SUM=a9d2db920bd4b3d824729bbe1ff3fa57ad27760487581af6e5d3156d1b3c2511
+ENV SHA256SUM=10e1fdcca263062b1d7b2cb93a924be1ef3dd6c381263d8151dd1a20a3d8c0dc
 
 WORKDIR /
 
